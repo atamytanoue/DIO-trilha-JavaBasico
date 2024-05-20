@@ -26,6 +26,7 @@ Saldo = leia.nextDouble();
 System.out.println("Olá "+Nome_Cliente+", obrigado por criar uma conta em nosso banco,"+
  "sua agência é "+ Agencia+", conta "+Numero+" e seu saldo "+ Saldo+" já está disponível para saque.");
 
+ leia.close();
 
     }
 }
